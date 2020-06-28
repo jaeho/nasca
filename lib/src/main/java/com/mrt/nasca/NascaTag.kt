@@ -15,10 +15,11 @@ const val IMG_CLICKABLE_BR = "$IMG_CLICKABLE$BR"
 const val IMG_NON_CLICKABLE =
     "<img src=\"%s\" onerror=\"this.style.display='none'\"/>"
 const val IMG_NON_CLICKABLE_BR = "$IMG_NON_CLICKABLE$BR"
+const val META = "<meta name=\"viewport\" content=\"width=device-width\">"
 const val META_FOR_ZOOM =
     "<meta name=\"viewport\" content=\"user-scalable=yes, initial-scale=1.0, width=device-width, maximum-scale=9.0, minimum-scale=1.0\">"
-const val STYLE = "<style>img{height: auto;max-width: 100%;}</style>"
-const val HEAD = "<head>$STYLE</head>"
+const val STYLE = "<style>img{height: auto; width: 100%; max-width: 100%;}</style>"
+const val HEAD = "<head>$META$STYLE</head>"
 const val ZOOM_HEAD = "<head>$META_FOR_ZOOM$STYLE</head>"
 const val BODY = "<body style='margin:0;padding:0;'>%s</body>"
 const val MIME_TYPE = "text/html"

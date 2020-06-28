@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val sources = listOf(
-        "https://github.com/myrealtrip/nasca/blob/master/photos/940x27000.jpg?raw=true"
+        "https://www.gettyimagesgallery.com/wp-content/uploads/2018/12/GettyImages-2664892.jpg"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
