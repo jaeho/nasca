@@ -93,6 +93,10 @@ open class NascaView @JvmOverloads constructor(
         }
     }
 
+    fun clear() {
+        clearImages()
+    }
+
     private fun onImageClicked(url: String): Boolean {
         listener?.let {
             val uri = Uri.parse(url)

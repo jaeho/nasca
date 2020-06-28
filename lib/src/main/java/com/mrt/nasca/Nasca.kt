@@ -42,3 +42,7 @@ fun WebView.usingZoom() {
     settings.loadWithOverviewMode = true
     settings.useWideViewPort = true
 }
+
+fun WebView.clearImages() {
+    loadUrl("about:blank")
+}
